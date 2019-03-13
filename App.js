@@ -1,11 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import AddEntry from './components/AddEntry'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>OXunda on your app!</Text>
+        <Text>Vem de Bike</Text>
+        <AddEntry />
       </View>
     );
   }
